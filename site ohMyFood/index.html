@@ -16,12 +16,12 @@
 
 <body>
     <div class="main-container">
-        <header class="header__div"> <!--Logo Ohmyfood-->
+        <header class="header__div"> <!--HEADER - Logo Ohmyfood-->
             <div>
                 <img src="assets\images\logo\ohmyfood.png" alt="logo Ohmyfood" class="header__logo">
             </div>
         </header>
-        <main>
+        <main> <!--MAIN-->
             <section> <!--Réservez Menu (Location + bouton explorer)-->
                 <div class="book__location-div">
                     <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
@@ -46,33 +46,33 @@
                 <div class="function__instruction-div">
                     <div>
                         <span class="function__instruction-number">
-                            <i class="fa-solid fa-1"></i>
+                            <i class="fa-solid fa-1" aria-hidden="true"></i>
                         </span>
                     </div>
                     <div class="function__instruction-text">
                         <i class="fa-solid fa-mobile-screen-button function__instruction-icon"></i>
-                        <p>Choisissez un restaurant</p>
+                        <p id="function__instruction-text-mobile">Choisissez un restaurant</p>
                     </div>
                 </div>
                 <div class="function__instruction-div">
                     <div>
                         <span class="function__instruction-number">
-                            <i class="fa-solid fa-2"></i>
+                            <i class="fa-solid fa-2" aria-hidden="true"></i>
                         </span>
                     </div>
                     <div class="function__instruction-text">
-                        <i class="fa-solid fa-list-ul function__instruction-icon"></i>
+                        <i class="fa-solid fa-list-ul function__instruction-icon" aria-hidden="true"></i>
                         <p>Composez votre menu</p>
                     </div>
                 </div>
                 <div class="function__instruction-div">
                     <div>
                         <span class="function__instruction-number">
-                            <i class="fa-solid fa-3"></i>
+                            <i class="fa-solid fa-3" aria-hidden="true"></i>
                         </span>
                     </div>
                     <div class="function__instruction-text">
-                        <i class="fa-solid fa-store function__instruction-icon"></i>
+                        <i class="fa-solid fa-store function__instruction-icon" aria-hidden="true"></i>
                         <p>Dégustez au restaurant</p>
                     </div>
                 </div>
@@ -81,10 +81,94 @@
                 <div class="restaurant__title">
                     <h2>Restaurants</h2>
                 </div>
+                <div class="restaurant__cards">
+                    <a href="#">
+                        <article class="card">
+                            <div class="restaurant__cards-new">
+                                <p>Nouveau</p>
+                            </div>
+                            <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg">
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="card-title">La palette du goût</h3>
+                                    <p class="card-subtitle">Ménilmontant</p>
+                                </div>
+                                <div class="card-heart">
+                                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <div class="restaurant__cards-new">
+                                <p>Nouveau</p>
+                            </div>
+                            <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg">
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="card-title">La note enchantée</h3>
+                                    <p class="card-subtitle">Charonne</p>
+                                </div>
+                                <div class="card-heart">
+                                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg">
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="card-title">À la française</h3>
+                                    <p class="card-subtitle">Cité rouge</p>
+                                </div>
+                                <div class="card-heart">
+                                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg">
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="card-title">Le délice des sens</h3>
+                                    <p class="card-subtitle">Folie-Méricourt</p>
+                                </div>
+                                <div class="card-heart">
+                                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
             </section>
         </main>
-        <footer> <!--Info footer-->
-
+        <footer> <!--FOOTER - Info footer-->
+            <div class="footer__title">
+                <h3>ohmyfood</h3>
+            </div>
+            <article class="footer__article">
+                <div class="footer__icon-div">
+                    <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+                    <p class="footer__icon-text">Proposer un restaurant</p>
+                </div>
+                <div class="footer__icon-div">
+                    <i class="fa-solid fa-handshake-angle" aria-hidden="true"></i>
+                    <p class="footer__icon-text">Devenir partenaire</p>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <p>Mentions légales</p>
+                </div>
+                <div>
+                    <p>Contact</p>
+                </div>
+            </article>
         </footer>
     </div>
 </body>
