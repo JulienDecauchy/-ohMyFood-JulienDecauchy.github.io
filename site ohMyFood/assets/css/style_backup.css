@@ -23,7 +23,7 @@ body {
 
 footer {
     background: #353535;
-    padding: 1.25rem;
+    padding: 20px;
 }
 
 footer h3,
@@ -34,7 +34,7 @@ footer i {
 }
 
 footer p {
-    padding-bottom: 0.3rem;
+    padding-bottom: 5px;
 }
 
 a {
@@ -43,7 +43,7 @@ a {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .card {
@@ -58,14 +58,12 @@ p {
 
 /******HEADER******/
 .header__div {
-    padding: 1.5rem 3rem;
+    padding: 30px 60px;
     max-height: 40px;
-    text-align: center;
 }
 
 .header__logo {
     max-width: 100%;
-    height: 2rem;
 }
 
 /******MAIN******/
@@ -73,18 +71,14 @@ p {
 /***Réservez Menu (Location)***/
 .book__location-div {
     max-height: 40px;
-    padding: 0.5rem 5rem;
+    padding: 10px 65px;
     font-size: 18px;
     font-weight: bold;
     background-color: #ebebeb;
     box-shadow: inset 0px 4px #d6d6d6;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-}
-
-.book__location-div p {
-    padding-left: 1rem;
 }
 
 /***Réservez Menu (Texte + Bouton Explorer)***/
@@ -98,21 +92,21 @@ p {
 }
 
 .book__search-title {
-    margin: 0rem;
-    padding: 2rem 2.5rem 0.5rem 2.5rem;
+    margin: 0px;
+    padding: 30px 40px 10px 40px;
 }
 
 .book__search-text {
-    font-size: 1.1rem;
-    margin: 0rem;
-    padding: 0.7rem;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px;
 }
 
 .book__search-button-a {
-    margin: 1.2rem 3.1rem 3.1rem 3.1rem;
+    margin: 20px 50px 50px 50px;
     border-style: solid;
     box-sizing: border-box;
-    border-width: 0rem;
+    border-width: 0px;
 	border-radius: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 0px 0px rgba(255, 255, 255, 0) inset;
     transition: box-shadow 0.5s;
@@ -131,11 +125,11 @@ p {
 
 /***Fonctionnement (instruction)***/
 .function__section {
-    margin-bottom: 4.5rem;
+    margin-bottom: 75px;
 }
 
 .function__title {
-    margin: 3rem 0rem 2.1rem 1.2rem;
+    margin: 50px 0px 35px 20px;
 }
 
 .function__instruction-div {
@@ -146,7 +140,7 @@ p {
 
 .function__instruction-number {
     position: absolute;
-    margin: 1.5rem 0rem 0rem 1rem;
+    margin: 25px 0px 0px 16px;
     font-size: 10px;
     box-sizing: border-box;
     color: white;
@@ -156,13 +150,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 1.5rem;
-    min-width: 1.5rem;
+    min-height: 24px;
+    min-width: 24px;
 }
 
 .function__instruction-icon {
-    padding: 2rem 0rem 2rem 1rem;
-    font-size: 1.2rem;
+    padding: 30px 0px 30px 20px;
+    font-size: 18px;
 }
 
 .fa-store {
@@ -186,14 +180,13 @@ p {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     width: 80%;
     height: 70px;
-    margin-right: 1rem;
-    background: var(--fourth-color);
+    margin-right: 18px;
 }
 
 .function__instruction-text p {
-    font-size: 0.9rem;
-    padding-right: 1.8rem;
-    margin-top: 1.25rem;
+    font-size: 14px;
+    padding-right: 30px;
+    margin-top: 20px;
 }
 
 #function__instruction-text-mobile {
@@ -203,22 +196,22 @@ p {
 /***Restaurants (Cartes vers menu)***/
 .restaurant__section {
     background-color: var(--fourth-color);
-    padding-bottom: 3.1rem;
+    padding-bottom: 50px;
 }
 
 .restaurant__title {
-    padding: 1.8rem 0rem 0.6rem 1.25rem;
+    padding: 30px 0px 10px 20px;
 }
 
 .restaurant__cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.9rem;
+    margin: 15px;
 }
 
 .restaurant__cards a {
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -234,7 +227,7 @@ p {
     color: #008766;
     width: 20%;
     height: 25px;
-    margin: 1.5rem 0rem 0rem 13rem;
+    margin: 20px 0px 0px 215px;
 }
 
 .restaurant__cards-new p {
@@ -269,22 +262,22 @@ p {
 
 .restaurant__heart-div-1 {
     position: absolute;
-    margin: 12rem 0rem 0rem 13rem;
+    margin: 190px 0px 0px 220px;
 }
 
 .restaurant__heart-div-2 {
     position: absolute;
-    margin: 28.5rem 0rem 0rem 13rem;
+    margin: 455px 0px 0px 220px;
 }
 
 .restaurant__heart-div-3 {
     position: absolute;
-   margin: 45rem 0rem 0rem 13rem;
+   margin: 720px 0px 0px 220px;
 }
 
 .restaurant__heart-div-4 {
     position: absolute;
-    margin: 61.5rem 0rem 0rem 13rem;
+    margin: 985px 0px 0px 220px;
 }
 
 .restaurant__heart {
@@ -328,16 +321,22 @@ p {
 
 /******FOOTER******/
 .footer__title {
-    padding-bottom: 1.25rem;
+    padding-bottom: 20px;
 }
 
 .footer__title h3 {
     font-family: shrikhand, sans-serif;
 }
 
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .footer__icon-div {
     display: flex;
-    padding-bottom: 0.25rem;
+    justify-content: space-between;
 }
 
 .fa-utensils,
@@ -351,196 +350,4 @@ p {
 
 .footer__icon-div .fa-handshake-angle {
     padding-right: 10px;
-}
-
-/******Media Queries******/
-/* Medium devices (43rem and above) */
-@media (min-width: 43rem) {
-    .book__location-div {
-        padding: 0rem;
-        box-shadow: none;
-    }
-
-    .book__search-title {
-        font-size: 2rem;
-    }
-
-    .book__search-text {
-        font-size: 1rem;
-    }
-
-    .function__section {
-        margin-bottom: 2rem;
-    }
-
-    .function__title {
-        margin-left: 2.5rem;
-    }
-
-    .function__group-div {
-        display: flex;
-        justify-content: center;
-        margin: 1rem;
-    }
-
-    .function__instruction-div {
-        width: 100%;
-    }
-
-    .function__instruction-number {
-        margin: 1.5rem 0.5rem 0rem 0.2rem;
-    }
-
-    .function__instruction-icon {
-        padding: 2.2rem 0rem 2rem 0.7rem;
-        font-size: 1rem;
-    }
-    
-    .function__instruction-text p {
-        font-size: 0.8rem;
-        padding-right: 1.5rem;
-    }
-
-    .restaurant__section {
-        padding-bottom: 0.1rem;
-    }
-
-    .restaurant__title {
-        padding: 0.5rem 0rem 0.1rem 2.5rem;
-    }
-    
-    .restaurant__cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-
-    .restaurant__cards a {
-        width: 45%;
-    }
-
-    .restaurant__cards-new {
-        width: 10%;
-        margin: 1.5rem 0rem 0rem 15rem;
-    }
-
-    .restaurant__heart-div-1 {
-        margin: 0rem 8rem 8rem 0rem;
-    }
-    
-    .restaurant__heart-div-2 {
-        margin: 0rem 0rem 8rem 39rem;
-    }
-    
-    .restaurant__heart-div-3 {
-       margin: 33rem 8rem 8rem 0rem;
-    }
-    
-    .restaurant__heart-div-4 {
-        margin: 33rem 0rem 8rem 39rem;
-    }
-
-    .footer__title {
-        padding-bottom: 0.3rem;
-    }
-
-    .footer__group-div {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: flex-end;
-        padding-top: 2.5rem;
-    }
-
-    .footer__icon-div {
-        padding-bottom: 0rem;
-    }
-    
-    .footer__div-text-icon {
-        display: flex;
-        justify-content: space-evenly;
-        padding-right: 3rem;
-        order: 2
-    }
-    
-    .footer__div-text {
-        display: flex;
-        justify-content: space-evenly;
-        padding-right: 3rem;
-        order: 1
-    }
-
-    .footer__text {
-        font-size: 0.9rem;
-        padding-right: 0.87rem;
-    }
-}
-
-/* Large Devices (62rem and above) */
-@media (min-width: 62rem) {
-    .function__section {
-        margin: 0rem 7rem 0rem 7rem;
-    }
-
-    .function__instruction-number {
-        margin: 1.5rem 0rem 0rem 0rem;
-    }
-
-    .function__group-div {
-        margin: 1rem 0rem 1rem 0rem;
-    }
-
-    .function__instruction-text {
-        display: flex;
-        justify-content: center;
-        width: 85%;
-    }
-
-    .function__instruction-icon {
-        padding-right: 0.5rem;
-    }
-
-    .function__instruction-text p {
-        font-size: 0.9rem;
-    }
-
-    .restaurant__title {
-        margin: 0rem 7rem 0rem 7rem;
-    }
-
-    .restaurant__cards {
-        margin: 0rem 5rem 0rem 5rem;
-    }
-
-    .restaurant__cards a {
-        margin-left: 1.75rem;
-        margin-top: 1rem;
-        margin-bottom: 2.5rem;
-        width: 42%;
-    }
-
-    .restaurant__cards-new {
-        width: 7%;
-        margin: 1.5rem 0rem 0rem 17rem;
-    }
-
-    .restaurant__heart-div-1 {
-        margin: 0rem 7rem 10rem 0rem;
-    }
-    
-    .restaurant__heart-div-2 {
-        margin: 0rem 0rem 10rem 46rem;
-    }
-    
-    .restaurant__heart-div-3 {
-       margin: 37rem 8rem 10rem 0rem;
-    }
-    
-    .restaurant__heart-div-4 {
-        margin: 35rem 0rem 8rem 46rem;
-    }
-
-    .footer__group-div {
-        margin-right: 1.5rem;
-    }
 }
