@@ -547,11 +547,10 @@ p {
     }
 
     .function__group-div {
-        margin: 1rem 0rem 1rem 0rem;
+        margin: 1rem 0rem;
     }
 
     .function__instruction-text {
-        display: flex;
         justify-content: center;
         width: 85%;
     }
@@ -611,5 +610,153 @@ p {
     
     .footer__group-div {
         margin-right: 1.5rem;
+    }
+}
+
+/* Extra Large Devices (82rem and above) */
+@media (min-width: 82rem) {
+    .book__location-div {
+        padding: 0.5rem;
+    }
+
+    .book__search-title {
+        font-size: 2.5rem;
+    }
+
+    .book__search-text {
+        font-size: 1.1rem;
+    }
+
+    .function__instruction-div {
+        width: 32%;
+    }
+
+    .function__instruction-icon {
+        padding: 2rem 1rem 2rem 0rem;
+        font-size: 1.2rem;
+    }
+
+    .function__instruction-text p {
+        font-size: 1.1rem;
+    }
+
+    .function__instruction-number {
+        margin: 1.5rem 0rem 0rem 0.5rem;
+    }
+
+    .restaurant__cards {
+        margin: 0rem 2.5rem 0rem 2.5rem;
+    }
+
+    .restaurant__cards a {
+        width: 38%;
+        margin-left: 0rem;
+    }
+
+    .restaurant__cards-new {
+        margin: 1.5rem 0rem 0rem 25rem;
+    }
+
+    .restaurant__heart-div-1 {
+        margin: 0rem 12rem 10rem 0rem;
+    }
+    
+    .restaurant__heart-div-2 {
+        margin: 0rem 0rem 10rem 66rem;
+    }
+    
+    .restaurant__heart-div-3 {
+       margin: 37rem 12rem 10rem 0rem;
+    }
+    
+    .restaurant__heart-div-4 {
+        margin: 35rem 0rem 8rem 66rem;
+    }
+}
+
+/* Wider Screen (120rem and above) */
+@media (min-width: 120rem) {
+    .book__search-title {
+        font-size: 3rem;
+    }
+
+    .book__search-text {
+        font-size: 1.3rem;
+    }
+
+    .function__title {
+        margin-top: 3.5rem;
+        margin-left: 8rem;
+    }
+
+    .function__title h2, .restaurant__title h2 {
+        font-size: 1.8rem;
+    }
+
+    .function__group-div {
+        margin: 2rem 0rem 3rem 0rem;
+    }
+
+    .function__instruction-div {
+        width: 30%;
+    }
+
+    .function__instruction-text {
+        justify-content: flex-start;
+        padding-left: 3rem;
+    }
+
+    .function__instruction-text p {
+        font-size: 1.2rem;
+    }
+
+    .function__instruction-icon {
+        font-size: 1.4rem;
+        padding-right: 2rem;
+    }
+
+    .function__instruction-number {
+        margin-left: 1.2rem;
+        font-size: 11px;
+        min-height: 1.55rem;
+        min-width: 1.55rem;
+    }
+
+    .restaurant__title {
+        margin-left: 12.5rem;
+        padding-top: 1.25rem;
+    }
+
+    .restaurant__cards {
+        margin: 0rem 3rem 0rem 3rem;
+    }
+
+    .restaurant__cards a {
+        width: 34%;
+    }
+
+    .restaurant__cards-new {
+        width: 5%;
+        margin: 1.5rem 0rem 0rem 31rem;
+    }
+
+    .restaurant__cards-new p {
+        font-size: 0.85rem;
+    }
+
+    .restaurant__heart-div-1 {
+        margin: 0rem 18rem 10rem 0rem;
+    }
+    
+    .restaurant__heart-div-2 {
+        margin: 0rem 0rem 10rem 83rem;
+    }
+    
+    .restaurant__heart-div-3 {
+       margin: 37rem 18rem 10rem 0rem;
+    }
+    
+    .restaurant__heart-div-4 {
+        margin: 35rem 0rem 8rem 83rem;
     }
 }
